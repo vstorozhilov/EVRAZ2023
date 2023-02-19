@@ -1,0 +1,33 @@
+@font-face {
+  font-family: "CustomFont";
+  src: url("gteestiprotext_bold.otf") format("opentype"),
+  url("gteestiprotext_medium.otf") format("opentype"),
+  url("gteestiprotext_regular.otf") format("opentype");
+  }
+
+* {
+  box-sizing: border-box;
+  font-family: 'CustomFont';
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+html, body, #root {
+  height : 100%
+}
+
+body {
+  background-color: #F0F0F0
+}
+
+.App-header {
+  min-height: 54px;
+}
+
+#chart {
+  background-color: white;
+  border-radius: 10px;
+}
+
